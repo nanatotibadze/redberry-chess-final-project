@@ -1,0 +1,271 @@
+body {
+  height: 1080px;
+  width: 1920px;
+}
+
+/* html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+} */
+h1, h2 {
+  font-family: "Nunito";
+  left: 100px;
+  line-height: 1.5;
+  position: absolute;
+  text-transform: uppercase;
+  top: 270px;
+  width: 500px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+h2 {
+  color: #212529;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 800;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-one {
+  bottom: 500px;
+  left: 100px;
+  position: absolute;
+  text-align: center;
+}
+
+/* header section style*/
+.header {
+  background-color: #7025FB;
+  height: 84px;
+  width: 923px;
+  left: 0;
+  top: 0;
+}
+
+.header-1 {
+  position: absolute;
+}
+
+.header-2 {
+  position: fixed;
+}
+
+.logo1 {
+  left: 60px;
+  top: 30px;
+  position: absolute;
+}
+
+.logo2 {
+  left: 83px;
+  top: 30px;
+  position: absolute;
+}
+
+/* Left section style */
+.title-image {
+  width: 923px;
+  height: 996px;
+  left: 0;
+  top: 84px;
+}
+
+.img-1 {
+  background: url("/images/photo1.png");
+  position: sticky;
+}
+
+.img-2 {
+  background: url("/images/photo2.png");
+  position: fixed;
+}
+
+.img-3 {
+  background: url("/images/photo3.png");
+  position: fixed;
+}
+
+.img-4 {
+  background: url("/images/photo 4.png");
+  position: fixed;
+}
+
+.p-author {
+  width: 500px;
+  font-family: 'Nunito';
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.author-1 {
+  left: 100px;
+  top: 350px;
+  color: #E5E6E8;
+}
+
+.author-2 {
+  left: 300px;
+  top: 400px;
+  color: #093F68;
+}
+
+/* Right section style */
+.title-p {
+  color: #212529;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  top: 300px;
+  position: absolute;
+  right: 400px;
+}
+
+.right-section {
+  height: 1080px;
+  left: 923px;
+  top: 0;
+  position: fixed;
+  width: 997px;
+}
+
+.right-section-header {
+  top: 0;
+  height: 84px;
+  left: 923px;
+  position: absolute;
+  width: 997px;
+  padding: 30px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: normal;
+  color: #212529;
+  border: #B9B4C3 1px solid;
+  text-transform: capitalize;
+}
+
+.right-section-two {
+  height: 996px;
+  left: 923px;
+  top: 84px;
+  position: absolute;
+  width: 997px;
+}
+
+.section-one {
+  background-color: #FD5334;
+}
+
+.onboard-img {
+  position: sticky;
+  margin-left: 300px;
+  top: 300px;
+}
+
+.input-style {
+  width: 750px;
+  height: 20px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  padding: auto;
+}
+
+.forms {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+}
+
+.select-level {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  width: 450px;
+}
+
+.select-charachter {
+  position: absolute;
+  top: 300px;
+  width: 450px;
+  left: 500px;
+}
+
+.question {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+}
+
+.info-heading {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  color: #000000
+}
+
+.info-heading p {
+  color: #95939A;
+  font-size: 0, 8rem;
+}
+
+.form-floating {
+  width: 750px;
+  margin-bottom: 20px;
+}
+
+.button-next {
+  position: absolute;
+  left: 680px;
+  top: 700px;
+  width: 120px;
+}
+
+.button-back {
+  position: absolute;
+  left: 50px;
+  top: 700px;
+  width: 120px;
+}
+
+.nona{
+  background-image: url("https://chess-tournament-api.devtest.ge/images/nona.jpg");
+}
+
+.form-control{
+  height:40px;
+  padding:4% 2%;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+  }
+
+input:valid+span:after {
+  position: absolute;
+  content: '✓';
+  padding-left: 5px;
+}
