@@ -19,6 +19,7 @@
   <script src="https://kit.fontawesome.com/ebcb689456.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
   <div class="header header-2">
     <img class="logo1" src="images/logo1.png" alt="vector">
@@ -27,7 +28,7 @@
 
   <div class="title-image img-3">
     <h2> “Many have become chess masters; no one has become the master of chess.”</h2>
-    <p class="p-author author-2">  - Siegbert Tarrasch </p>
+    <p class="p-author author-2"> - Siegbert Tarrasch </p>
   </div>
 
   <div class="right-section-header">
@@ -36,60 +37,53 @@
   </div>
   <div class="right-section-two">
 
-<div class="info-heading">
-  <h3>Chess Experience</h2>
-  <p>This is basic informaton fields </p>
-
-</div>
-
-    <div class="select-level">
-      <select class="form-select select-2" aria-label="Default select example" >
-  <option selected  value="0">level of knowledge</option>
-  <option value="1">Begginer</option>
-  <option value="2">Intermediate</option>
-  <option value="3">Profesional</option>
-</select>
+    <div class="info-heading">
+      <h3>Chess Experience</h2>
+        <p>This is basic informaton fields </p>
 
     </div>
+    <form class="" action="/page3" method="post">
 
-<div class="select-charachter">
+      <div class="select-level">
 
-  <select class="form-select select-2" aria-label="Default select example" >
-<option selected  value="0">Choose your charachter</option>
-<option class="no" value="1"> Nona Gaprindashvili</option>
-<option value="2">Wilhelm Steinitz</option>
-<option value="3">Bobby Fischer</option>
-<option value="4">Magnus Carlsen"</option>
-</select>
+        <select class="form-select select-2" aria-label="Default select example" name="knowledge">
+          <option selected value="0">level of knowledge</option>
+          <option value="1">Begginer</option>
+          <option value="2">Intermediate</option>
+          <option value="3">Profesional</option>
+        </select>
 
+      </div>
 
-</div>
+      <div class="select-charachter">
 
+        <select class="form-select select-2" aria-label="Default select example" required>
+          <option selected value="0">Choose your charachter</option>
+          <option class="no" value="1" id="1"> Nona Gaprindashvili</option>
+          <option value="2" id="2">Wilhelm Steinitz</option>
+          <option value="3" id="3">Bobby Fischer</option>
+          <option value="4" id="4">Magnus Carlsen"</option>
+        </select>
+      </div>
+      <div class="question">
+        <p>Have you participated in the Redberry Championship?</p>
+          <input type="radio" id="yes" name="experience" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="experience" value="no">
+          <label for="no">No</label>
+      </div>
 
-<form class="question" action>
-  <p>Have you participated in the Redberry Championship?</p>
+      <button type="submit" class="btn btn-dark btn-lg button-next"> Next <i class="fa-solid fa-circle-arrow-right"></i></button>
+      <div class="last-section">
+      <button type="button" class="btn btn-dark btn-lg button-back"><a href="/page2"> <i class="fa-solid fa-circle-arrow-left"></i> Back </a></button>
 
-  <input type="radio" id="yes" name="experience" value="yes">
-  <label for="yes">Yes</label>
-  <input type="radio" id="no" name="experience" value="no">
-  <label for="no">No</label>
+      </div>
 
-</form>
+    </form>
 
-<div class="last-section">
-  <button type="button" class="btn btn-dark btn-lg button-back"><a href="/page2"> <i class="fa-solid fa-circle-arrow-left"></i> Back </a></button>
-  <button type="button" class="btn btn-dark btn-lg button-next"><a href="/page4"> Next <i class="fa-solid fa-circle-arrow-right"></i></a></button>
-
-</div>
-
-
-
-</div>
-
-
-<script type="text/javascript" src="app.js">
-
-</script>
+  </div>
+  <script type="text/javascript" src="app.js">
+  </script>
 
 </body>
 

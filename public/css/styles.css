@@ -1,16 +1,17 @@
-body {
-  height: 1080px;
-  width: 1920px;
-}
-
-/* html {
+html {
   overflow: scroll;
   overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
   width: 0;
-} */
+}
+
+body {
+  height: 1080px;
+  width: 1920px;
+}
+
 h1, h2 {
   font-family: "Nunito";
   left: 100px;
@@ -213,12 +214,6 @@ a:hover {
   left: 500px;
 }
 
-.question {
-  position: absolute;
-  top: 400px;
-  left: 50px;
-}
-
 .info-heading {
   position: absolute;
   top: 200px;
@@ -238,34 +233,27 @@ a:hover {
 
 .button-next {
   position: absolute;
-  left: 680px;
-  top: 700px;
+  left: 600px;
+  top: 500px;
   width: 120px;
 }
 
 .button-back {
   position: absolute;
   left: 50px;
-  top: 700px;
+  top: 500px;
   width: 120px;
 }
 
-.nona{
-  background-image: url("https://chess-tournament-api.devtest.ge/images/nona.jpg");
+.form-control {
+  height: 40px;
+  padding: 4% 2%;
+  margin: 5% auto;
 }
 
-.form-control{
-  height:40px;
-  padding:4% 2%;
-}
-
-.required:after {
-    content:" *";
-    color: red;
-  }
-
-input:valid+span:after {
+.question {
   position: absolute;
-  content: '✓';
-  padding-left: 5px;
+  top: 350px;
+  left: 50px;
+  margin-top: 30px;
 }
